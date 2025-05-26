@@ -14,3 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyA2bSDB_FdWc_WSgREwxQHfEOOVNTuq3DQ",
+  authDomain: "expence-tracker-2ed49.firebaseapp.com",
+  projectId: "expence-tracker-2ed49",
+  storageBucket: "expence-tracker-2ed49.firebasestorage.app",
+  messagingSenderId: "847526384559",
+  appId: "1:847526384559:web:a6a9a1ec6f88a3dc5d555a",
+  measurementId: "G-1L4JJ7B0EB"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
